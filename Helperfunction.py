@@ -1,3 +1,4 @@
+import os
 def check_images(files, valid_extensions):
   parent_path=os.listdir(files)
   for i in range (len(parent_path)):
